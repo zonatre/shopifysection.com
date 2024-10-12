@@ -2,19 +2,18 @@
 <html lang="tr">
 
 <head>
-    <title>ShopifySection — Özel Shopify Geliştirme</title>
+    <title>Bakım & Güncellemeler — ShopifySection</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description"
-        content="Shopify özelleştirme, tema oluşturma, uygulama entegrasyonu ve optimizasyon hizmetleri sunuyoruz.">
-    <meta name="keywords"
-        content="Shopify, özel Shopify geliştirme, Shopify temaları, Shopify uygulama geliştirme, Shopify entegrasyonu">
+        content="Shopify mağazanızın sorunsuz çalışması ve en son özelliklerle güncel kalması için sürekli bakım ve güncellemeler sağlıyoruz.">
+    <meta name="keywords" content="Shopify bakımı, Shopify güncellemeleri, sürekli destek, Shopify sorun giderme">
     <meta name="msapplication-TileColor" content="#E9204F">
     <meta name="theme-color" content="#E9204F">
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon-16x16.png">
-    <link rel="icon" href="../favicon.ico">
+    <link rel="icon" href="favicon.ico">
     <link rel="manifest" href="../assets/images/site.webmanifest">
     <link rel="mask-icon" href="../assets/images/safari-pinned-tab.svg" color="#E9204F">
     <link rel="stylesheet" href="../assets/css/normalize.min.css" />
@@ -26,7 +25,7 @@
     <link href="../style.css" rel="stylesheet">
 </head>
 
-<body class="page-template page-template-full single single-post">
+<body class="page-template page-template-default single single-service-item">
 
     <div id="loader" class="preloader pr__dark">
         <span class="loading">
@@ -45,10 +44,10 @@
             <nav class="menu" data-uk-scrollspy-nav="offset: 0; closest: li; scroll: true">
                 <ul data-uk-scrollspy="target: > li; cls:uk-animation-slide-right; delay: 100; repeat: true;">
                     <li><a href="indexTR.html">Ana Sayfa</a></li>
-                    <li><a href="#pr__services">Hizmetler</a></li>
-                    <li><a href="#pr__works">Projeler</a></li>
-                    <li><a href="#pr__about">Hakkımızda</a></li>
-                    <li><a href="#pr__contact">İletişim</a></li>
+                    <li><a href="indexTR.html#pr__services">Hizmetler</a></li>
+                    <li><a href="indexTR.html#pr__works">Projeler</a></li>
+                    <li><a href="indexTR.html#pr__about">Hakkımızda</a></li>
+                    <li><a href="indexTR.html#pr__contact">İletişim</a></li>
                 </ul>
                 <div class="lang">
                     <div data-uk-form-custom="target: true">
@@ -67,7 +66,8 @@
 
     <div class="pr__wrapper" id="site-wrapper">
 
-        <div class="pr__hero__wrap pr__dark" style="background-image: url('../assets/images/hero_02.jpg');" id="site-hero">
+        <div class="pr__hero__wrap pr__dark" style="background-image: url('../assets/images/maintenance-hero.jpg');"
+            data-uk-parallax="bgy: -200" id="site-hero">
 
             <header class="pr__header pr__dark" data-uk-sticky="top: 100vh; animation: uk-animation-slide-top;">
                 <div class="uk-container">
@@ -81,13 +81,13 @@
                             <nav class="menu" data-uk-navbar=""
                                 data-uk-scrollspy-nav="offset: 0; closest: li; scroll: true">
                                 <ul>
-                                    <li><a href="#pr__hero">Ana Sayfa</a></li>
+                                    <li><a href="indexTR.html">Ana Sayfa</a></li>
                                     <li>
-                                        <a href="#pr__services">Hizmetler <span data-uk-navbar-parent-icon></span></a>
+                                        <a href="indexTR.html#pr__services">Hizmetler <span data-uk-navbar-parent-icon></span></a>
                                         <div class="sub-menu uk-navbar-dropdown">
                                             <ul class="uk-nav uk-navbar-dropdown-nav">
                                                 <li><a href="service-single-custom-theme.html">Özel Tema Geliştirme</a></li>
-                                                <li><a href="service-single-custom-section.html">Özel Bölüm ve Blok</a></li>
+                                                <li><a href="service-single-custom-section.html">Özel Bölümler & Bloklar</a></li>
                                                 <li><a href="service-single-app-development.html">Shopify Uygulama Geliştirme</a></li>
                                                 <li><a href="service-single-shopify-integration.html">Shopify Entegrasyonu</a></li>
                                                 <li><a href="service-single-shopify-setup.html">Shopify Mağaza Kurulumu</a></li>
@@ -95,7 +95,7 @@
                                             </ul>
                                         </div>
                                     </li>
-                                    <li><a href="#pr__works">Projeler</a></li>
+                                    <li><a href="indexTR.html#pr__works">Projeler</a></li>
                                     <li><a href="about.html">Hakkımızda</a></li>
                                     <li><a href="#pr__contact">İletişim</a></li>
                                 </ul>
@@ -125,8 +125,14 @@
                 <div class="uk-container">
                     <div class="section-inner">
                         <div class="hero-content">
-                            <h2 class="page-title uk-h1">Hakkımızda</h2>
-                            <p>Bizi daha yakından tanıyın ve ne yaptığımızı öğrenin</p>
+                            <img class="shopify-partner-logo" src="../assets/images/shopify-partner.png"
+                                    alt="Shopify iş ortağı logosu">
+                            <hr class="line pr__hr__secondary">
+                            <h2 class="page-title uk-heading-primary">Bakım & Güncellemeler</h2>
+                            <ul class="breadcrumbs uk-breadcrumb">
+                                <li><a href="indexTR.html#pr__services">Hizmetler</a></li>
+                                <li><span>Bakım & Güncellemeler</span></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -136,57 +142,91 @@
 
         <div class="pr__content" id="site-content">
 
-            <div class="pr__primary uk-section uk-section-medium" id="site-primary">
+            <div class="pr__primary uk-section uk-section-large has-sidebar" id="site-primary">
                 <div class="outer">
                     <div class="uk-container uk-position-relative">
                         <div class="inner uk-grid uk-grid-large uk-grid-match" data-uk-grid="">
                             <div class="uk-width-expand">
                                 <main class="pr__main" id="site-main">
-                                    <article class="uk-article post type-post single-post">
+                                    <article class="uk-article page type-page">
 
-                                        <div class="outer uk-grid uk-grid-large uk-flex" data-uk-grid="">
-                                            <div class="inner uk-width-expand">
+                                        <div class="outer">
+                                            <div class="inner">
                                                 <div class="entry-body">
-                                                    <h3 class="uk-h3">ShopifySection Hakkında</h3>
-                                                    <p class="uk-text-lead">
-                                                        Shopify, güçlü bir e-ticaret platformu olmasına rağmen, birçok
-                                                        marka standart temalar ve uygulamalarla spesifik ihtiyaçlarını
-                                                        tam olarak karşılayamaz. Sonuç olarak, birçok işletme kendini
-                                                        sınırlı bir çerçevede bulur. Ancak Shopify'ın sağlam API
-                                                        altyapısı sayesinde bu sınırların ötesine geçen tamamen özel
-                                                        çözümler geliştirmek mümkündür.
-                                                    </p>
-                                                    <p>
-                                                        ShopifySection olarak, işletmenizin ihtiyaçlarına özel olarak
-                                                        uyarlanmış Shopify çözümleri sunuyoruz. Türkiye ve
-                                                        uluslararası markalarla çalışarak özel tema geliştirme, özel
-                                                        bölümler ve bloklar, Shopify uygulama geliştirme ve üçüncü
-                                                        taraf uygulama entegrasyonları gibi geniş bir hizmet yelpazesi
-                                                        sağlıyoruz. Shopify'ın API'sini tam anlamıyla kullanarak,
-                                                        e-ticaret platformunuzun tam potansiyelini optimize eden
-                                                        çözümler üretiyoruz.
-                                                    </p>
-                                                    <p>
-                                                        Her projeyi şeffaf bir teklif süreciyle ele alıyor, ne için
-                                                        ödeme yaptığınızı tam olarak bilmenizi sağlıyoruz. Ayrıca,
-                                                        gerçekleştirdiğimiz her iş bir sözleşme ile güvence altına
-                                                        alınır, böylece hizmetlerimizin kalitesi ve güvenilirliği
-                                                        garanti altındadır.
-                                                    </p>
-                                                    <p>
-                                                        Ayrıca, tasarım ortaklarımızla işbirliği yaparak görsel ve
-                                                        video içerik oluşturma gibi ek hizmetler de sunuyoruz ve
-                                                        markanıza çevrimiçi ortamda başarılı olması için ihtiyaç
-                                                        duyduğu tam paketi sunuyoruz.
-                                                    </p>
+                                                    <h5 class="uk-h4">Shopify Mağazanız Sorunsuz Çalışsın</h5>
+
+                                                    <p>Bakım & Güncellemeler hizmetimizle Shopify mağazanızın her zaman
+                                                        güncel, güvenli ve en iyi performansla çalıştığından emin
+                                                        oluyoruz. Düzenli güncellemelerden sorun giderme ve performans
+                                                        optimizasyonlarına kadar, mağazanızın sorunsuz çalışmasını
+                                                        sağlıyoruz.</p>
+
+                                                    <h6 class="uk-heading-line"><span>Sunduğumuz Hizmetler:</span></h6>
+                                                    <div class="uk-column-1-2@m uk-margin-medium">
+                                                        <dl class="uk-description-list">
+                                                            <dt><i class="icon pr-checkmark-circle"></i> Düzenli Mağaza
+                                                                Güncellemeleri</dt>
+                                                            <dd>Mağazanızı en son Shopify özellikleriyle güncel tutar,
+                                                                üçüncü parti uygulamalarla uyumluluğunu sağlarız.</dd>
+                                                            <dt><i class="icon pr-checkmark-circle"></i> Sorun Giderme &
+                                                                Hata Düzeltme</dt>
+                                                            <dd>Ekibimiz, ortaya çıkan sorunları hızla çözer ve
+                                                                işinizin minimum kesintiyle devam etmesini sağlar.</dd>
+                                                            <dt><i class="icon pr-checkmark-circle"></i> Performans
+                                                                Optimizasyonu</dt>
+                                                            <dd>Mağazanızın hızını ve performansını optimize ederiz,
+                                                                müşterileriniz için kesintisiz bir alışveriş deneyimi
+                                                                sağlarız.</dd>
+                                                            <dt><i class="icon pr-checkmark-circle"></i> Güvenlik
+                                                                Artırımı</dt>
+                                                            <dd>Mağazanızın güvenliğini en güncel protokollerle
+                                                                artırarak, veri gizliliğini ve güvenliği sağlar.</dd>
+                                                        </dl>
+                                                    </div>
+                                                    <p>Shopify mağazanızın her zaman en iyi şekilde çalıştığından emin
+                                                        olmanızı sağlayan sürekli destek ve bakım hizmetlerimizle
+                                                        güvendesiniz.</p>
+
+                                                    <h6 class="uk-heading-line"><span>Referans:</span></h6>
                                                     <blockquote class="uk-text-left">
-                                                        <p>“Müşterilerimize verdiğimiz sözleri her zaman yerine
-                                                            getiriyoruz. Teslim edemediğimizde veya herhangi bir sorun
-                                                            yaşandığında, hızlı ve tatmin edici bir çözüm
-                                                            sunacağımızı, sözleşmelerimizle güvence altına alıyoruz.”</p>
-                                                        <footer><strong>ShopifySection Ekibi</strong></footer>
+                                                        <p>"ShopifySection ekibi, mağazamızın bakımını yaparak işimizi
+                                                            sorunsuz yürütmemize büyük katkı sağladı. Sorunlar hızla
+                                                            çözülüyor ve mağazamız her zaman en iyi şekilde çalışıyor."</p>
+                                                        <footer><strong>Jane Doe</strong> – Mağaza Sahibi, Örnek İşletme</footer>
                                                     </blockquote>
 
+                                                    <h6 class="uk-heading-line"><span>Sürecimiz:</span></h6>
+                                                    <ul data-uk-accordion="">
+                                                        <li class="uk-open">
+                                                            <a class="uk-accordion-title" href="#">Adım 1: Mağaza Denetimi
+                                                                & Kurulum</a>
+                                                            <div class="uk-accordion-content">
+                                                                <p>Shopify mağazanızın kapsamlı bir denetimini yaparak
+                                                                    potansiyel sorunları ve optimizasyon fırsatlarını
+                                                                    belirleriz. Bu denetim sonucunda size özel bir bakım
+                                                                    planı oluştururuz.</p>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <a class="uk-accordion-title" href="#">Adım 2: Düzenli
+                                                                Bakım</a>
+                                                            <div class="uk-accordion-content">
+                                                                <p>Düzenli bakım hizmetleri sağlarız; yazılım
+                                                                    güncellemeleri, hata düzeltmeleri ve performans
+                                                                    takibi yaparak mağazanızın her zaman en iyi
+                                                                    performansta çalışmasını sağlarız.</p>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <a class="uk-accordion-title" href="#">Adım 3: Sürekli Destek</a>
+                                                            <div class="uk-accordion-content">
+                                                                <p>Herhangi bir sorun veya ihtiyacınıza yanıt vermek için
+                                                                    sürekli destek sunarız. İster sorun giderme ister
+                                                                    yeni özellikler ekleme olsun, biz her zaman
+                                                                    yanınızdayız.</p>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
                                                 </div>
                                             </div>
                                         </div>
@@ -194,11 +234,27 @@
                                     </article>
                                 </main>
                             </div>
+                            <div class="uk-width-1-4@l">
+                                <aside class="pr-sidebar widget-area" id="site-sidebar">
+                                    <div style="z-index: 1;" data-uk-sticky="offset: 120; bottom: true">
+                                        <section class="widget widget_nav_menu">
+                                            <h2 class="widget-title">Ana Hizmetler</h2>
+                                            <ul class="content">
+                                                <li><a href="service-single-custom-theme.html">Özel Tema Geliştirme</a></li>
+                                                <li><a href="service-single-app-development.html">Shopify Uygulama Geliştirme</a></li>
+                                                <li><a href="service-single-custom-section.html">Özel Bölümler & Bloklar</a></li>
+                                                <li><a href="service-single-shopify-integration.html">Shopify Entegrasyonu</a></li>
+                                                <li><a href="service-single-shopify-setup.html">Shopify Mağaza Kurulumu</a></li>
+                                                <li class="current"><a href="service-single-maintenance.html">Bakım & Güncellemeler</a></li>
+                                            </ul>
+                                        </section>
+                                    </div>
+                                </aside>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div><!-- Site Primary Content End -->
-
         </div><!-- Site Content End -->
 
         <footer class="pr__footer" id="site-footer">
@@ -210,7 +266,7 @@
                             <div class="columns uk-grid" data-uk-grid="">
                                 <div class="pr__cta column">
                                     <div class="inner">
-                                        <h2 class="title uk-h1">Konuşalım mı?</h2>
+                                        <h2 class="title uk-h1">Görüşelim mi?</h2>
                                     </div>
                                 </div>
                                 <div class="pr__cta column">
@@ -230,11 +286,12 @@
                 <div class="uk-container">
                     <ul>
                         <li>PIRAYE B.V.<br>Amsterdam / Hollanda</li>
-                        <li>DIGITALX WEB DESIGN<br>Dubai / Birleşik Arap Emirlikleri</li>
-                        <li>PIRAYE REKLAM SANAYİ LTD. STI.<br>Eskişehir / Türkiye</li>
+                        <li>DIGITALX WEB TASARIM<br>Dubai / Birleşik Arap Emirlikleri</li>
+                        <li>PIRAYE REKLAM SANAYİ LTD. ŞTİ.<br>Eskişehir / Türkiye</li>
                     </ul>
-                    <p class="uk-text-center">Bize ulaşın: <a
-                            href="mailto:info@shopifysection.com">info@shopifysection.com</a> — Her dilde bize ulaşabilirsiniz!</p>
+                    <p class="uk-text-center">İletişime geçin: <a
+                            href="mailto:info@shopifysection.com">info@shopifysection.com</a> — Herhangi bir dilde bize
+                        ulaşabilirsiniz!</p>
                 </div>
             </div>
 
@@ -250,7 +307,8 @@
                                 </div>
                                 <div class="pr__copyrights column">
                                     <div class="inner">
-                                        <p>2021 - 2024 © <a href="indexTR.html">ShopifySection.com</a>, Tüm hakları saklıdır.</p>
+                                        <p>2021 - 2024 © <a href="indexTR.html">ShopifySection.com</a>, Tüm hakları
+                                            saklıdır.</p>
                                     </div>
                                 </div>
                             </div>
@@ -270,7 +328,7 @@
                     <div class="form-inner uk-position-relative">
                         <button class="uk-modal-close-full" type="button"
                             data-uk-close="ratio: 2;"><span>Kapat</span></button>
-                        <h2 class="uk-modal-title uk-h1">Konuşalım mı?</h2>
+                        <h2 class="uk-modal-title uk-h1">Görüşelim mi?</h2>
                         <p>Birlikte harika bir şey yapalım</p>
                         <form class="pr__contact pr__form" action="includes/sendemail.php">
                             <div class="pr__form__group">
@@ -286,7 +344,7 @@
                                 <input class="pr-input" id="subject" name="subject" type="text" />
                             </div>
                             <div class="pr__form__group">
-                                <label for="budget">Bütçeniz Nedir?</label>
+                                <label for="budget">Bütçe Aralığınız Nedir?</label>
                                 <select class="uk-select" id="budget" name="budget">
                                     <option>&nbsp;</option>
                                     <option>Düşük bütçe</option>
@@ -301,16 +359,17 @@
                                 <textarea class="pr-textarea" id="message" name="message"></textarea>
                             </div>
                             <p class="pr__form__group uk-margin-large">
-                                <button class="uk-button uk-button-large uk-button-primary" type="submit">Mesaj Gönder</button>
+                                <button class="uk-button uk-button-large uk-button-primary" type="submit">Mesaj
+                                    Gönder</button>
                             </p>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
-    </div><!-- İletişim Formu Popup Sonu -->
+    </div><!-- Contact Form Popup End -->
 
-    <!-- Gerekli Scriptler -->
+    <!-- Needed Scripts -->
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/js/anime.min.js"></script>
     <script src="../assets/js/pr.animation.js"></script>
@@ -318,7 +377,6 @@
     <script src="../assets/js/owl.carousel.min.js"></script>
     <script src="../assets/js/validate.js"></script>
     <script src="../assets/js/main.js"></script>
-
 </body>
 
 </html>
