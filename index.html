@@ -47,11 +47,11 @@
                     <li><a href="#pr__about">About</a></li>
                     <li><a href="#pr__contact">Contact</a></li>
                 </ul>
-                <div class="lang">
+                <div class="lang">  
                     <div data-uk-form-custom="target: true">
-                        <select id="languageSwitcher" onchange="changeLanguage()">
+                        <select id="languageSwitcherMobile" onchange="changeLanguageMobile()">
                             <option value="index.html" selected>EN</option>
-                            <option value="indexTR.html">TR</option>
+                            <option value="/tr/index.html">TR</option>
                         </select>
                         <span></span>
                         <i class="icon pr-chevron-down"></i>
@@ -91,8 +91,10 @@
                                                         Development</a></li>
                                                 <li><a href="service-single-shopify-integration.html">Shopify
                                                         Integration</a></li>
-                                                <li><a href="service-single-shopify-setup.html">Shopify Store Setup</a></li>
-                                                <li><a href="service-single-maintenance.html">Maintanence & Updates</a></li>
+                                                <li><a href="service-single-shopify-setup.html">Shopify Store Setup</a>
+                                                </li>
+                                                <li><a href="service-single-maintenance.html">Maintanence & Updates</a>
+                                                </li>
                                             </ul>
                                         </div>
                                     </li>
@@ -106,7 +108,7 @@
                                 <div data-uk-form-custom="target: true">
                                     <select id="languageSwitcher" onchange="changeLanguage()">
                                         <option value="index.html" selected>EN</option>
-                                        <option value="indexTR.html">TR</option>
+                                        <option value="tr/index.html">TR</option>
                                     </select>
                                     <span></span>
                                     <i class="icon pr-chevron-down"></i>
@@ -309,7 +311,7 @@
                                 <div class="item work-box">
                                     <div class="outer">
                                         <div class="image pr__image__cover pr__ratio__square"
-                                            data-src="assets/images/works/hibboux.png" data-uk-img=""></div>
+                                            data-src="assets/images/Works/hibboux.png" data-uk-img=""></div>
                                         <div class="inner">
                                             <h3 class="title uk-h4">Hibboux.com</h3>
                                             <p class="category">Custom Accounting and Shipping Integrations</p>
@@ -321,7 +323,7 @@
                                 <div class="item work-box">
                                     <div class="outer">
                                         <div class="image pr__image__cover pr__ratio__square"
-                                            data-src="assets/images/works/Instyle.png" data-uk-img=""></div>
+                                            data-src="assets/images/Works/Instyle.png" data-uk-img=""></div>
                                         <div class="inner">
                                             <h3 class="title uk-h4">Instyler.com</h3>
                                             <p class="category">Custom Shopify Section</p>
@@ -334,7 +336,7 @@
                                 <div class="item work-box">
                                     <div class="outer">
                                         <div class="image pr__image__cover pr__ratio__square"
-                                            data-src="assets/images/works/tsd.png" data-uk-img=""></div>
+                                            data-src="assets/images/Works/tsd.png" data-uk-img=""></div>
                                         <div class="inner">
                                             <h3 class="title uk-h4">tsdperformance.com</h3>
                                             <p class="category">Custom Shopify Section</p>
@@ -347,7 +349,7 @@
                                 <div class="item work-box">
                                     <div class="outer">
                                         <div class="image pr__image__cover pr__ratio__square"
-                                            data-src="assets/images/works/danskweb.png" data-uk-img=""></div>
+                                            data-src="assets/images/Works/danskweb.png" data-uk-img=""></div>
                                         <div class="inner">
                                             <h3 class="title uk-h4">Dansk Trailer</h3>
                                             <p class="category">Custom Theme Development</p>
@@ -467,8 +469,7 @@
                             </div>
                             <div class="item logo">
                                 <div class="inner">
-                                    <img class="client-logo" src="assets/images/logos/promo.avif"
-                                        alt="Promo Remorque">
+                                    <img class="client-logo" src="assets/images/logos/promo.avif" alt="Promo Remorque">
                                 </div>
                             </div>
                             <div class="item logo">
@@ -636,6 +637,10 @@
     <script>
         function changeLanguage() {
             var language = document.getElementById("languageSwitcher").value;
+            window.location.href = language;  // Kullanıcının seçtiği sayfaya yönlendirme
+        }
+        function changeLanguageMobile() {
+            var language = document.getElementById("languageSwitcherMobile").value;
             window.location.href = language;  // Kullanıcının seçtiği sayfaya yönlendirme
         }
     </script>
