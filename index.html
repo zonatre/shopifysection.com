@@ -41,12 +41,22 @@
 
             <nav class="menu" data-uk-scrollspy-nav="offset: 0; closest: li; scroll: true">
                 <ul data-uk-scrollspy="target: > li; cls:uk-animation-slide-right; delay: 100; repeat: true;">
-                    <li><a href="#pr__hero">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="#pr__services">Services</a></li>
                     <li><a href="#pr__works">Works</a></li>
                     <li><a href="#pr__about">About</a></li>
                     <li><a href="#pr__contact">Contact</a></li>
                 </ul>
+                <div class="lang">
+                    <div data-uk-form-custom="target: true">
+                        <select id="languageSwitcher" onchange="changeLanguage()">
+                            <option value="index.html" selected>EN</option>
+                            <option value="indexTR.html">TR</option>
+                        </select>
+                        <span></span>
+                        <i class="icon pr-chevron-down"></i>
+                    </div>
+                </div>
             </nav>
 
         </div><!-- Off Canvas Bar End -->
@@ -81,6 +91,8 @@
                                                         Development</a></li>
                                                 <li><a href="service-single-shopify-integration.html">Shopify
                                                         Integration</a></li>
+                                                <li><a href="service-single-shopify-setup.html">Shopify Store Setup</a></li>
+                                                <li><a href="service-single-maintenance.html">Maintanence & Updates</a></li>
                                             </ul>
                                         </div>
                                     </li>
@@ -116,7 +128,7 @@
                         <div class="hero-content uk-grid" data-uk-grid="">
                             <div class="uk-width-2-3@s">
                                 <img class="shopify-partner-logo" src="assets/images/shopify-partner.png"
-                                    alt="Citimodern">
+                                    alt="Shopify partners logo">
                                 <hr class="line pr__hr__primary">
                                 <h2 class="title uk-heading-hero">Your Trusted Shopify Partner.</h2>
                                 <div class="uk-margin-top">We specialize in creating custom Shopify solutions to help
@@ -143,7 +155,6 @@
                                     <p class="description">As certified Shopify experts, we handle every aspect of your
                                         Shopify store, ensuring it’s optimized for growth and success in the eCommerce
                                         space.</p>
-                                    <a href="#" class="link uk-position-cover"></a>
                                 </div>
                             </div>
                             <div class="item feature-box">
@@ -154,7 +165,6 @@
                                     <p class="description">From concept to launch, we manage all Shopify
                                         processes—whether it's a complex marketplace, multi-vendor setup, or a tailored
                                         B2B solution. Your vision is our blueprint.</p>
-                                    <a href="#" class="link uk-position-cover"></a>
                                 </div>
                             </div>
                             <div class="item feature-box">
@@ -165,7 +175,6 @@
                                     <p class="description">With Shopify’s flexible infrastructure and our expertise, the
                                         possibilities are endless. Share your dreams with us, and we’ll make them a
                                         reality, no matter how complex.</p>
-                                    <a href="#" class="link uk-position-cover"></a>
                                 </div>
                             </div>
                         </div>
@@ -234,7 +243,7 @@
                                         <i class="overlay-icon icon pr-line-tools"></i>
                                         <h5 class="title uk-h5">Shopify Store Setup</h5>
                                         <i class="icon pr-arrow-right"></i>
-                                        <a href="#" class="link uk-position-cover"></a>
+                                        <a href="service-single-shopify-setup.html" class="link uk-position-cover"></a>
                                     </div>
                                 </div>
                                 <div class="item service-box style-one">
@@ -242,7 +251,7 @@
                                         <i class="overlay-icon icon pr-line-chat"></i>
                                         <h5 class="title uk-h5">Maintenance & Updates</h5>
                                         <i class="icon pr-arrow-right"></i>
-                                        <a href="#" class="link uk-position-cover"></a>
+                                        <a href="service-single-maintenance.html" class="link uk-position-cover"></a>
                                     </div>
                                 </div>
                             </div>
@@ -261,9 +270,6 @@
                                     <hr class="line pr__hr__secondary">
                                     <h2 class="title uk-h1">Works.</h2>
                                     <span class="subtitle pr__heading__secondary">Things we've made</span>
-                                </div>
-                                <div class="right">
-                                    <a class="button uk-button uk-button-default" href="#">View all</a>
                                 </div>
                             </div>
                         </div>
@@ -551,7 +557,7 @@
                             <div class="columns uk-grid" data-uk-grid="">
                                 <div class="pr__links column">
                                     <div class="inner">
-                                        <a href="#">Cookie and Privacy Policy</a>
+                                        <a href="cookie-and-privacy.html">Cookie and Privacy Policy</a>
                                     </div>
                                 </div>
                                 <div class="pr__copyrights column">
