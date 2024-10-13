@@ -58,7 +58,7 @@ h5,
 /* Free Alternative Google Fonts */
 /* Body */
 body {
-  font-family: "Trade Gothic", "Roboto Condensed", sans-serif;
+  font-family: "Avant Grade", "Roboto Condensed", sans-serif;
   font-size: 17px;
   font-weight: 400;
   font-style: normal;
@@ -125,7 +125,7 @@ h6,
 
 /* Text Styles */
 .pr-font-main {
-  font-family: "Trade Gothic", "Roboto Condensed", sans-serif;
+  font-family: "Avant Grade", "Roboto Condensed", sans-serif;
 }
 
 .pr-font-second {
@@ -988,7 +988,7 @@ body.single-post .hero-content .category {
   margin-top: 60px;
 }
 .post .pr__entry__sidebar .title {
-  font-family: "Trade Gothic", "Roboto Condensed", sans-serif;
+  font-family: "Avant Grade", "Roboto Condensed", sans-serif;
   font-size: 22px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1009,7 +1009,7 @@ body.single-post .hero-content .category {
   font-size: 1rem;
 }
 .post .pr__entry__meta.pr__vr strong {
-  font-family: "Trade Gothic", "Roboto Condensed", sans-serif;
+  font-family: "Avant Grade", "Roboto Condensed", sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -1167,7 +1167,7 @@ body.single-post .hero-content .category {
   /* Widget: Tag Cloud */
 }
 .widget > .widget-title {
-  font-family: "Trade Gothic", "Roboto Condensed", sans-serif;
+  font-family: "Avant Grade", "Roboto Condensed", sans-serif;
   font-size: 22px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1325,7 +1325,7 @@ body.single-post .hero-content .category {
   font-weight: 700;
 }
 .pr__footer .pr__footer__center ul > li > a > span {
-  font-family: "Trade Gothic", "Roboto Condensed", sans-serif;
+  font-family: "Avant Grade", "Roboto Condensed", sans-serif;
   font-size: 18px;
   font-weight: 400;
   display: block;
@@ -1494,7 +1494,7 @@ body.single-post .hero-content .category {
 
 /* Headings */
 .pr__heading__secondary {
-  font-family: "Trade Gothic", "Roboto Condensed", sans-serif;
+  font-family: "Avant Grade", "Roboto Condensed", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   color: #00ff74;
@@ -1968,7 +1968,7 @@ a.uk-slidenav > * {
     color: #00ff74;
   }
   .pr__header .inner .navbar .sub-menu {
-    font-family: "Trade Gothic", "Roboto Condensed", sans-serif;
+    font-family: "Avant Grade", "Roboto Condensed", sans-serif;
     transform: translateY(-10px);
   }
   .pr__header .inner .navbar .sub-menu > ul {
@@ -1977,7 +1977,7 @@ a.uk-slidenav > * {
     gap: 8px;
   }
   .pr__header .inner .navbar .sub-menu li > a {
-    font-family: "Trade Gothic", "Roboto Condensed", sans-serif;
+    font-family: "Avant Grade", "Roboto Condensed", sans-serif;
     font-weight: 500;
     transition: color 200ms ease;
     color: #000;
