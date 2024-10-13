@@ -52,8 +52,8 @@
                 <div class="lang">
                     <div data-uk-form-custom="target: true">
                         <select id="languageSwitcher" onchange="changeLanguage()">
-                            <option value="index.html">EN</option>
-                            <option value="indexTR.html" selected>TR</option>
+                            <option value="/">EN</option>
+                            <option value="index.html" selected>TR</option>
                         </select>
                         <span></span>
                         <i class="icon pr-chevron-down"></i>
@@ -104,8 +104,8 @@
                             <div class="lang">
                                 <div data-uk-form-custom="target: true">
                                     <select id="languageSwitcher" onchange="changeLanguage()">
-                                        <option value="index.html">EN</option>
-                                        <option value="indexTR.html" selected>TR</option>
+                                        <option value="/">EN</option>
+                                        <option value="index.html" selected>TR</option>
                                     </select>
                                     <span></span>
                                     <i class="icon pr-chevron-down"></i>
@@ -347,6 +347,16 @@
     <script src="../assets/js/owl.carousel.min.js"></script>
     <script src="../assets/js/validate.js"></script>
     <script src="../assets/js/main.js"></script>
+    <script>
+        function changeLanguage() {
+            var language = document.getElementById("languageSwitcher").value;
+            window.location.href = language;  // Kullanıcının seçtiği sayfaya yönlendirme
+        }
+        function changeLanguageMobile() {
+            var language = document.getElementById("languageSwitcherMobile").value;
+            window.location.href = language;  // Kullanıcının seçtiği sayfaya yönlendirme
+        }
+    </script>
 </body>
 
 </html>

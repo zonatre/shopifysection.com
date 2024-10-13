@@ -44,7 +44,7 @@
 
             <nav class="menu" data-uk-scrollspy-nav="offset: 0; closest: li; scroll: true">
                 <ul data-uk-scrollspy="target: > li; cls:uk-animation-slide-right; delay: 100; repeat: true;">
-                    <li><a href="indexTR.html">Ana Sayfa</a></li>
+                    <li><a href="index.html">Ana Sayfa</a></li>
                     <li><a href="#pr__services">Hizmetler</a></li>
                     <li><a href="#pr__works">Projeler</a></li>
                     <li><a href="#pr__about">Hakkımızda</a></li>
@@ -52,9 +52,9 @@
                 </ul>
                 <div class="lang">
                     <div data-uk-form-custom="target: true">
-                        <select id="languageSwitcher" onchange="changeLanguage()">
-                            <option value="index.html">EN</option>
-                            <option value="indexTR.html" selected>TR</option>
+                        <select id="languageSwitcherMobile" onchange="changeLanguageMobile()">
+                            <option value="/">EN</option>
+                            <option value="index.html" selected>TR</option>
                         </select>
                         <span></span>
                         <i class="icon pr-chevron-down"></i>
@@ -73,7 +73,7 @@
                 <div class="uk-container">
                     <div class="inner">
                         <div class="logo">
-                            <a href="indexTR.html">
+                            <a href="index.html">
                                 <div class="brand"></div>
                             </a>
                         </div>
@@ -95,7 +95,7 @@
                                             </ul>
                                         </div>
                                     </li>
-                                    <li><a href="#pr__works">Projeler</a></li>
+                                    <li><a href="index.html#pr__works">Projeler</a></li>
                                     <li><a href="about.html">Hakkımızda</a></li>
                                     <li><a href="#pr__contact">İletişim</a></li>
                                 </ul>
@@ -104,8 +104,8 @@
                             <div class="lang">
                                 <div data-uk-form-custom="target: true">
                                     <select id="languageSwitcher" onchange="changeLanguage()">
-                                        <option value="index.html">EN</option>
-                                        <option value="indexTR.html" selected>TR</option>
+                                        <option value="/">EN</option>
+                                        <option value="index.html" selected>TR</option>
                                     </select>
                                     <span></span>
                                     <i class="icon pr-chevron-down"></i>
@@ -250,7 +250,7 @@
                                 </div>
                                 <div class="pr__copyrights column">
                                     <div class="inner">
-                                        <p>2021 - 2024 © <a href="indexTR.html">ShopifySection.com</a>, Tüm hakları saklıdır.</p>
+                                        <p>2021 - 2024 © <a href="index.html">ShopifySection.com</a>, Tüm hakları saklıdır.</p>
                                     </div>
                                 </div>
                             </div>
@@ -318,7 +318,16 @@
     <script src="../assets/js/owl.carousel.min.js"></script>
     <script src="../assets/js/validate.js"></script>
     <script src="../assets/js/main.js"></script>
-
+    <script>
+        function changeLanguage() {
+            var language = document.getElementById("languageSwitcher").value;
+            window.location.href = language;  // Kullanıcının seçtiği sayfaya yönlendirme
+        }
+        function changeLanguageMobile() {
+            var language = document.getElementById("languageSwitcherMobile").value;
+            window.location.href = language;  // Kullanıcının seçtiği sayfaya yönlendirme
+        }
+    </script>
 </body>
 
 </html>

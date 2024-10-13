@@ -51,9 +51,9 @@
                 </ul>
                 <div class="lang">
                     <div data-uk-form-custom="target: true">
-                        <select id="languageSwitcher" onchange="changeLanguage()">
-                            <option value="indexTR.html" selected>TR</option>
-                            <option value="index.html">EN</option>
+                        <select id="languageSwitcherMobile" onchange="changeLanguageMobile()">
+                            <option value="index.html" selected>TR</option>
+                            <option value="/">EN</option>
                         </select>
                         <span></span>
                         <i class="icon pr-chevron-down"></i>
@@ -73,7 +73,7 @@
                 <div class="uk-container">
                     <div class="inner">
                         <div class="logo">
-                            <a href="indexTR.html">
+                            <a href="index.html">
                                 <div class="brand"></div>
                             </a>
                         </div>
@@ -81,7 +81,7 @@
                             <nav class="menu" data-uk-navbar=""
                                 data-uk-scrollspy-nav="offset: 0; closest: li; scroll: true">
                                 <ul>
-                                    <li><a href="indexTR.html">Anasayfa</a></li>
+                                    <li><a href="index.html">Anasayfa</a></li>
                                     <li>
                                         <a href="indexTR.html#pr__services">Hizmetler <span data-uk-navbar-parent-icon></span></a>
                                         <div class="sub-menu uk-navbar-dropdown">
@@ -95,8 +95,8 @@
                                             </ul>
                                         </div>
                                     </li>
-                                    <li><a href="indexTR.html#pr__works">Projeler</a></li>
-                                    <li><a href="aboutTR.html">Hakkında</a></li>
+                                    <li><a href="index.html#pr__works">Projeler</a></li>
+                                    <li><a href="about.html">Hakkında</a></li>
                                     <li><a href="#pr__contact">İletişim</a></li>
                                 </ul>
                             </nav>
@@ -104,8 +104,8 @@
                             <div class="lang">
                                 <div data-uk-form-custom="target: true">
                                     <select id="languageSwitcher" onchange="changeLanguage()">
-                                        <option value="indexTR.html" selected>TR</option>
-                                        <option value="index.html">EN</option>
+                                        <option value="index.html" selected>TR</option>
+                                        <option value="/">EN</option>
                                     </select>
                                     <span></span>
                                     <i class="icon pr-chevron-down"></i>
@@ -346,6 +346,16 @@
     <script src="../assets/js/owl.carousel.min.js"></script>
     <script src="../assets/js/validate.js"></script>
     <script src="../assets/js/main.js"></script>
+    <script>
+        function changeLanguage() {
+            var language = document.getElementById("languageSwitcher").value;
+            window.location.href = language;  // Kullanıcının seçtiği sayfaya yönlendirme
+        }
+        function changeLanguageMobile() {
+            var language = document.getElementById("languageSwitcherMobile").value;
+            window.location.href = language;  // Kullanıcının seçtiği sayfaya yönlendirme
+        }
+    </script>
 </body>
 
 </html>
