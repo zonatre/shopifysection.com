@@ -36,7 +36,7 @@ a:hover {
 }
 a:hover,
 a:hover:hover {
-  color: #E9204F;
+  color: #00ff74;
 }
 
 /* Headings */
@@ -1174,13 +1174,13 @@ body.single-post .hero-content .category {
   letter-spacing: normal;
   position: relative;
   margin-bottom: 60px;
-  color: #E9204F;
+  color: #00ff74;
 }
 .widget > .widget-title:after {
   content: "";
   position: absolute;
   width: 30px;
-  border-bottom: 2px solid #E9204F;
+  border-bottom: 2px solid #00ff74;
   margin-top: 10px;
   display: block;
 }
@@ -1219,14 +1219,14 @@ body.single-post .hero-content .category {
 }
 .widget.widget_nav_menu ul li.uk-active a, .widget.widget_nav_menu ul li.current a,
 .widget.widget_nav_menu ul li a:hover {
-  color: #E9204F;
+  color: #00ff74;
   padding-left: 10px;
 }
 .widget.widget_nav_menu ul li.uk-active a:before, .widget.widget_nav_menu ul li.current a:before,
 .widget.widget_nav_menu ul li a:hover:before {
   transform: translateX(0);
   opacity: 1;
-  color: #E9204F;
+  color: #00ff74;
 }
 .widget.widget_recent_entries ul li {
   display: flex;
@@ -1487,7 +1487,7 @@ body.single-post .hero-content .category {
 .uk-breadcrumb > li > a,
 .uk-breadcrumb > li > span {
   font-size: 1rem;
-  color: #E9204F;
+  color: #00ff74;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -1570,7 +1570,7 @@ body.single-post .hero-content .category {
 .uk-description-list > dt {
   font-size: 1.1rem;
   font-weight: 700;
-  color: #E9204F;
+  color: #00ff74;
   margin-bottom: 5px;
 }
 
@@ -1591,7 +1591,7 @@ body.single-post .hero-content .category {
   background-color: #F3F3F3;
 }
 .uk-accordion > li.uk-open .uk-accordion-title {
-  color: #E9204F;
+  color: #00ff74;
 }
 
 /* Images */
