@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- English Pages -->
+    <url>
+        <loc>http://shopifysection.com/</loc>
+        <lastmod>2024-10-12</lastmod>
+        <priority>1.0</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>http://shopifysection.com/about.html</loc>
+        <lastmod>2024-10-12</lastmod>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>http://shopifysection.com/cookie-and-privacy.html</loc>
+        <lastmod>2024-10-12</lastmod>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>http://shopifysection.com/service-single-app-development.html</loc>
+        <lastmod>2024-10-12</lastmod>
+        <priority>0.9</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>http://shopifysection.com/service-single-custom-section.html</loc>
+        <lastmod>2024-10-12</lastmod>
+        <priority>0.9</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>http://shopifysection.com/service-single-custom-theme.html</loc>
+        <lastmod>2024-10-12</lastmod>
+        <priority>0.9</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>http://shopifysection.com/service-single-maintenance.html</loc>
+        <lastmod>2024-10-12</lastmod>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>http://shopifysection.com/service-single-shopify-integration.html</loc>
+        <lastmod>2024-10-12</lastmod>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>http://shopifysection.com/service-single-shopify-setup.html</loc>
+        <lastmod>2024-10-12</lastmod>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <!-- Turkish Pages -->
+    <url>
+        <loc>http://shopifysection.com/tr/index.html</loc>
+        <lastmod>2024-10-12</lastmod>
+        <priority>1.0</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>http://shopifysection.com/tr/about.html</loc>
+        <lastmod>2024-10-12</lastmod>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>http://shopifysection.com/tr/cookie-and-privacy.html</loc>
+        <lastmod>2024-10-12</lastmod>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>http://shopifysection.com/tr/service-single-app-development.html</loc>
+        <lastmod>2024-10-12</lastmod>
+        <priority>0.9</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>http://shopifysection.com/tr/service-single-custom-section.html</loc>
+        <lastmod>2024-10-12</lastmod>
+        <priority>0.9</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>http://shopifysection.com/tr/service-single-custom-theme.html</loc>
+        <lastmod>2024-10-12</lastmod>
+        <priority>0.9</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>http://shopifysection.com/tr/service-single-maintenance.html</loc>
+        <lastmod>2024-10-12</lastmod>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>http://shopifysection.com/tr/service-single-shopify-integration.html</loc>
+        <lastmod>2024-10-12</lastmod>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <url>
+        <loc>http://shopifysection.com/tr/service-single-shopify-setup.html</loc>
+        <lastmod>2024-10-12</lastmod>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+</urlset>
