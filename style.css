@@ -2141,4 +2141,14 @@ a.uk-slidenav > * {
   z-index: 1000;
 }
 
+@media (max-width:1024px) {
+  .pr__footer .pr__footer__center ul {
+      flex-direction: column;
+  }
+  .pr__footer .pr__footer__center li {
+      margin: 5px 0 !important;
+  }
+}
+
+
 /*# sourceMappingURL=style.css.map */
